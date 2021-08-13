@@ -2,11 +2,11 @@
 
 #include "detail/utils.hpp"
 
-#if defined(HAS_PROTOBUF)
+//#if defined(HAS_PROTOBUF)
 #include <snappy.h>
 
 #include "logproto.pb.h"
-#endif
+//#endif
 
 namespace loki {
 
